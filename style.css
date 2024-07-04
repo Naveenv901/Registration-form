@@ -1,0 +1,78 @@
+.a{
+    padding-left: 30%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font: bolder;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+.se{
+    align-items: center;
+}
+.co{
+    font-size: 20px;
+    font: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 20px;
+}
+.cv:focus{
+    background-color: rgba(255, 0, 230, 0.409);
+}
+
+.cc{
+    padding: 1rem;
+    padding-left: 3rem;
+}
+button{
+    border: solid rgb(145, 255, 0);
+    background-color: black;
+    color: white;
+}
+button:hover{
+    border-color: black;
+    cursor: pointer;
+}
+.cv
+{
+    width: 200px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+@media (min-width:375px) and (max-width:600px){
+    h1{
+        text-align: center;
+        background-color: black;
+        width: 100%;
+        padding-right: 72.5px;
+    }
+    .co{
+        padding-left: 0%;
+    }
+    .a{
+        padding-left: 10%;
+    }
+}
+@media (min-width:600px) and (max-width:1200px){
+    h1{
+        text-align: center;
+        background-color: black;
+        width: 100%;
+        padding-right: 72.5px;
+    }
+    .co{
+        padding-left: 0%;
+    }
+    .a{
+        padding-left: 10%;
+    }
+}
